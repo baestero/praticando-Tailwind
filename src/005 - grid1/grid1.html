@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid 1</title>
+  <link rel="stylesheet" href="../../dist/output.css">
+</head>
+
+<body class="m-8">
+
+  <div class="grid grid-cols-3 gap-4 *:bg-gray-300 *:p-4 mb-8">
+    <div class="col-span-full">Item1</div>
+    <div class="col-span-2 row-span-2">Item2</div>
+    <div>Item3</div>
+    <div>Item4</div>
+  </div>
+
+  <div class="grid grid-cols-3 gap-4 *:bg-gray-300 *:p-4">
+    <div class="col-start-2">Item1</div>
+    <div class="col-start-3 row-start-3">Item2</div>
+    <div>Item3</div>
+    <div>Item4</div>
+  </div>
+
+</body>
+
+</html>
